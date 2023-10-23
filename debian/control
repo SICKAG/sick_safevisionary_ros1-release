@@ -1,0 +1,12 @@
+Source: ros-noetic-sick-safevisionary-msgs
+Section: misc
+Priority: optional
+Maintainer: Marvin Grosse Besselmann <grosse@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sick-safevisionary-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: Provides the interface descriptions to communicate with a SICk Safevisionary Sensor over ROS

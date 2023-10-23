@@ -1,0 +1,15 @@
+ros-noetic-sick-safevisionary-msgs (1.0.1-1focal) focal; urgency=high
+
+  * Add a minimal readme to the messages package
+  * Added pre-commit config and removed eof whitespaces
+  * Added licensing and maintainer infos
+  * Updated msg names and included header
+  * Removed unnecessary info from cmake and package files
+  * Renaming of msgs
+  * Added message definitions for status, io, roi, fields
+  * Transformed package into meta package and added driver specific msg package
+  * Contributors: Marvin Große Besselmann, Stefan Scherzinger
+
+ -- Marvin Grosse Besselmann <grosse@fzi.de>  Mon, 16 Oct 2023 22:00:00 -0000
+
+
