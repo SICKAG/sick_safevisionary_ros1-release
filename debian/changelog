@@ -1,0 +1,16 @@
+ros-noetic-sick-safevisionary-driver (1.0.1-1focal) focal; urgency=high
+
+  * Add a minimal readme to the driver package
+  * Added doxygen comments
+  * Added licensing and maintainer infos
+  * Updated msg names and included header
+  * Check intensity and point vector size for mismatch
+  * Split into driver and publisher class
+  * Removed unnecessary info from cmake and package files
+  * renamed variables
+  * Renamed classes and files
+  * Contributors: Marvin Große Besselmann, Stefan Scherzinger
+
+ -- Marvin Grosse Besselmann <grosse@fzi.de>  Mon, 16 Oct 2023 22:00:00 -0000
+
+

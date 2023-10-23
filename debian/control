@@ -1,0 +1,12 @@
+Source: ros-noetic-sick-safevisionary-driver
+Section: misc
+Priority: optional
+Maintainer: Marvin Grosse Besselmann <grosse@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-cv-bridge, ros-noetic-image-transport, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-sick-safevisionary-base, ros-noetic-sick-safevisionary-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sick-safevisionary-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-cv-bridge, ros-noetic-image-transport, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-sick-safevisionary-base, ros-noetic-sick-safevisionary-msgs
+Description: Provides an interface to read the sensor output of a SICK Safevisionary sensor in ROS.
